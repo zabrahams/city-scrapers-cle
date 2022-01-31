@@ -17,7 +17,7 @@ spider = CuyaElectionsSpider()
 freezer = freeze_time("2019-10-03")
 freezer.start()
 
-parsed_item = [item for item in spider._parse_detail(test_response)][0]
+parsed_item = [item for item in spider._parse_event_list(test_response)][0]
 
 freezer.stop()
 
