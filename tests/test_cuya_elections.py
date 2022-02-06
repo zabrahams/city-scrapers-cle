@@ -9,7 +9,7 @@ from freezegun import freeze_time
 from city_scrapers.spiders.cuya_elections import CuyaElectionsSpider
 
 test_response = file_response(
-    join(dirname(__file__), "files", "cuya_elections.html"),
+    join(dirname(__file__), "files", "cuya_elections", "cuya_elections.html"),
     url="https://boe.cuyahogacounty.us/en-US/08272019meeting.aspx",
 )
 spider = CuyaElectionsSpider()

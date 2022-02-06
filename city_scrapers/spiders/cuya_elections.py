@@ -17,30 +17,55 @@ class CuyaElectionsSpider(CityScrapersSpider):
         "name": "Board of Elections",
         "address": "2925 Euclid Ave, Cleveland, OH 44115",
     }
+    document_url = "https://boe.cuyahogacounty.gov/about-us/board-meeting-documents"
 
     def parse(self, response):
-        return self._parse_event_list(response)
+        return self._fetch_documents(response)
 
-    def _parse_event_list(self, response):
+    def _fetch_documents(self, response): 
+        return Request(
+            url=self.document_url,
+            callback=self._parse_documents,
+            cb_kwargs={
+                'page_response': response
+            })
+
+    def _parse_documents(self, document_response, page_response):
+        documents = {}
+        content_section = document_response.css("section#Contentplaceholder1_TAA75111F019_Col00")
+        dates = content_section.css("h3.heading-s")
+        links = content_section.css("h3.heading-s + p")
+        dates_and_links = zip(dates, links)
+        for date, links in dates_and_links:
+            key = date.css("::text").extract_first()
+            raw_links = links.css("a")
+            parsed_links = [{link.css("::text").extract_first().strip(): link.attrib["href"] } for link in raw_links]
+            documents[key] = parsed_links
+
+        logging.debug(documents)
+        return self._parse_event_list(documents, page_response)
+
+    def _parse_event_list(self, documents, response):
         event_list = response.css("ul.item-list li.item")
         for event in event_list:
             title = self._parse_title(event)
             if not('board' in title.lower()):
                 continue
-            yield self._parse_event(event, response.url)
+            yield self._fetch_event_details(event, documents, response.url)
     
 
-    def _parse_event(self, item, url):
+    def _fetch_event_details(self, item, documents, url):
         details_url = item.css("h3.title a").attrib["href"]
         return Request(
             url=details_url,
             callback=self._parse_event_with_details,
             cb_kwargs={
                 'item': item, 
-                'url': url
+                'url': url,
+                'documents': documents, 
             })
 
-    def _parse_event_with_details(self, details, item, url):
+    def _parse_event_with_details(self, details, item, url, documents):
         start, end = self._parse_start_end(item)
         meeting = Meeting(
             title=self._parse_title(item),

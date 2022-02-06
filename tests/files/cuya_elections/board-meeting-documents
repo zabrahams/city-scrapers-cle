@@ -1,0 +1,1931 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <script>
+         var HawkSearchBaseUrl = '/search/json';
+         HawkSearchTrackingUrl = 'http://cuyahoga.hawksearch.com/sites/cuyahogacounty';
+         SiteName = 'boe';
+     </script>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta charset="utf-8" />
+     <title>
+         Board Meeting Documents
+     </title>
+     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/icons/apple-touch-icon-57x57.png" />
+     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/icons/apple-touch-icon-114x114.png" />
+     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/icons/apple-touch-icon-72x72.png" />
+     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/icons/apple-touch-icon-144x144.png" />
+     <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/assets/icons/apple-touch-icon-60x60.png" />
+     <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/icons/apple-touch-icon-120x120.png" />
+     <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/icons/apple-touch-icon-76x76.png" />
+     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png" />
+     <meta name="application-name" content="&nbsp;" />
+     <meta name="msapplication-TileColor" content="#FFFFFF" />
+     <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+     <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+     <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+     <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+     <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+     <style>
+         /*hide header and navigation in edit mode*/
+         #ctl00_Contentplaceholder1_ctl00_C_RadDockZoneTAA75111F018_Col00 {
+             display: none
+         }
+
+         /*show site alert container*/
+         #ctl00_Contentplaceholder1_ctl00_C_ctl04_C_ctl02_C_RadDockZoneTE5485A05070_Col00 {
+             position: absolute;
+             display: block;
+         }
+
+
+         /*hide helpful servey in edit mode*/
+         #ctl00_Contentplaceholder1_ctl01_C_ctl04_C_ctl02_C_ctl02_C {
+             display: none
+         }
+
+         /*hide footer items in edit mode*/
+         #ctl00_Footer_RadDockZoneFooter {
+             display: none
+         }
+     </style>
+     <script src="/ResourcePackages/Bootstrap4/assets/dist/js/jquery-3.5.1.min.js"></script>
+     <link href="/ResourcePackages/Bootstrap4/assets/font/font-awesome-5.14.0/css/all.css" rel="stylesheet" />
+     <link href="/ResourcePackages/Bootstrap4/assets/dist/css/HawkSearch.css" rel="stylesheet" />
+     <link href="/ResourcePackages/Bootstrap4/assets/dist/css/main.min.css?package=Bootstrap4" rel="stylesheet"
+         type="text/css" />
+     <link href="/ResourcePackages/Bootstrap4/assets/dist/css/CustomStyle.css" rel="stylesheet" />
+     <meta property="og:title" content="Board Meeting Documents" />
+     <meta property="og:description"
+         content="Review the agenda, board packet and minutes from Board Meetings over the past three years." />
+     <meta property="og:url" content="https://boe.cuyahogacounty.gov/about-us/board-meeting-documents" />
+     <meta property="og:type" content="website" />
+     <meta property="og:site_name" content="Default" />
+     <script type="text/javascript">
+         (function (i, s, o, g, r, a, m) {
+             i['GoogleAnalyticsObject'] = r;
+             i[r] = i[r] || function () {
+                 (i[r].q = i[r].q || []).push(arguments)
+             }, i[r].l = 1 * new Date();
+             a = s.createElement(o),
+                 m = s.getElementsByTagName(o)[0];
+             a.async = 1;
+             a.src = g;
+             m.parentNode.insertBefore(a, m)
+         })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+         ga('create', 'UA-11952497-5', 'auto');
+         ga('send', 'pageview');
+     </script>
+     <meta name="Generator" content="Sitefinity 13.0.7327.0 PU" />
+     <link rel="canonical" href="https://boe.cuyahogacounty.gov/about-us/board-meeting-documents" />
+     <meta name="description"
+         content="Review the agenda, board packet and minutes from Board Meetings over the past three years." />
+ </head>
+
+ <body>
+     <div class="wrapper">
+         <!-- Page Content  -->
+         <div id="content">
+             <div class="sfPublicWrapper" id="PublicWrapper">
+                 <!-- Header -->
+                 <header class="site-header navbar-fixed-top" role="banner" aria-label="Site Header"> <a id="skippy"
+                         class="sr-only sr-only-focusable fixed-top" href="#main-content"
+                         style="z-index:5000; position:absolute;">
+                         <div class="container-fluid"> <span class="skiplink-text">Skip to main content</span> </div>
+                     </a> <a id="skippy" class="sr-only sr-only-focusable fixed-top searchPageOnly"
+                         href="#GoToFilterResults" style="z-index:5000; position:absolute;">
+                         <div class="container-fluid"> <span class="skiplink-text">Skip to Filter Results</span> </div>
+                     </a> <a id="skippy" class="sr-only sr-only-focusable fixed-top searchPageOnly"
+                         href="#searchResults" style="z-index:5000; position:absolute;">
+                         <div class="container-fluid"> <span class="skiplink-text">Skip to Search Results</span> </div>
+                     </a>
+                     <div class="container-fluid py-0" aria-hidden="true">
+                         <!-- nav container -->
+                         <div>
+                             <script
+                                 src="/Frontend-Assembly/HawkSearchWidgets/Mvc/Scripts/hawksearch-init.js?package=Bootstrap4&amp;v=MS43LjY1MC4xMw%3d%3d"
+                                 type="text/javascript"></script>
+                             <script
+                                 src="/Frontend-Assembly/HawkSearchWidgets/Mvc/Scripts/hawksearch.js?package=Bootstrap4&amp;v=MS43LjY1MC4xMw%3d%3d"
+                                 type="text/javascript"></script>
+                             <script
+                                 src="/Frontend-Assembly/HawkSearchWidgets/Mvc/Scripts/hawksearch-autosuggest.js?package=Bootstrap4&amp;v=MS43LjY1MC4xMw%3d%3d"
+                                 type="text/javascript"></script>
+                             <script
+                                 src="/Frontend-Assembly/HawkSearchWidgets/Mvc/Scripts/hawksearchbox.js?package=Bootstrap4&amp;v=MS43LjY1MC4xMw%3d%3d"
+                                 type="text/javascript"></script>
+                             <script
+                                 src="/ScriptResource.axd?d=wIuRaUoAZ6lXIF1Yn5fO2O_JWRCP9YM3Q4SI_ulnlGSe1NQQVZLormcMrYKGbquMqd_PEIOoPkjKliY3HS3o3CQjavEIOb2JVI3AEqAhTzmZBKe3bgdSkQruRxGZKJzn12ojQShEituXTETQSxSAcEj18sOoWe_98DUA1JQz6ECZaegeGVlyBcl8hqSTq_Hy0&amp;t=d4a3f3b"
+                                 type="text/javascript"></script>
+                             <script
+                                 src="/ScriptResource.axd?d=EydukmxBmDstn7gSYzQESNmFydCbazOPXX7jPXGKatBMaujCe6TlGaN2thRd9gsQOqsMOK9q7sa1LF5uYBun3bVs5dW6fRbh2veIhlU8FkrvFVx9p17ftwF0OBn9QTsQ02e0vCekC_e8XNyHoMsSgKT5VxjIHc521_CttxbRanDwgMc6tZB24FEczHHnBqMY0&amp;t=d4a3f3b"
+                                 type="text/javascript"></script>
+                             <script src="/ResourcePackages/Bootstrap4/assets/dist/js/popper.min.js"
+                                 type="text/javascript"></script>
+                             <script src="/ResourcePackages/Bootstrap4/assets/dist/js/bootstrap.min.js"
+                                 type="text/javascript"></script>
+                         </div>
+                         <div class="row">
+
+
+                         </div>
+                     </div>
+                 </header> <!-- end Header -->
+                 <!-- Site Main -->
+                 <div class="site-main mb-5">
+                     <!-- Main Content -->
+                     <main class="container-fluid mainContent" role="main" tabindex="-1">
+                         <section id="Contentplaceholder1_TAA75111F018_Col00"
+                             class="sf_colsIn top container-flex fixed-top" data-sf-element="Section"
+                             data-placeholder-label="Section Top">
+                             <div class=" additional-fixed row" data-sf-element="Row">
+                                 <div id="Contentplaceholder1_TE5485A05087_Col00" class="sf_colsIn col-md-2 clearfix"
+                                     data-sf-element="Column 1" data-placeholder-label="Column 1"></div>
+                                 <div id="Contentplaceholder1_TE5485A05087_Col01" class="sf_colsIn col-md-2"
+                                     data-sf-element="Column 2" data-placeholder-label="Column 2"></div>
+                                 <div id="Contentplaceholder1_TE5485A05087_Col02" class="sf_colsIn col-md-2"
+                                     data-sf-element="Column 3" data-placeholder-label="Column 3"></div>
+                                 <div id="Contentplaceholder1_TE5485A05087_Col03" class="sf_colsIn col-md-2"
+                                     data-sf-element="Column 4" data-placeholder-label="Column 4"></div>
+                                 <div id="Contentplaceholder1_TE5485A05087_Col04" class="sf_colsIn col-md-2 clearfix"
+                                     data-sf-element="Column 5" data-placeholder-label="Column 5">
+                                     <div style="float:right; margin:-15px 0 0 30px;">
+                                         <ul class="sf-lang-selector list-inline lang-selector-tab">
+                                             <li class="language-link-in-top-tab">
+                                                 <a href="" onclick="openLink('es'); return false;"
+                                                     class=" language-link-in-top-tab">espa&#241;ol</a>
+                                             </li>
+                                         </ul>
+                                     </div>
+
+
+
+
+
+                                 </div>
+                                 <div id="Contentplaceholder1_TE5485A05087_Col05" class="sf_colsIn col-md-2 clearfix"
+                                     data-sf-element="Column 6" data-placeholder-label="Column 6"></div>
+                             </div>
+
+
+                             <div class="row" data-sf-element="Row">
+                                 <div id="Contentplaceholder1_TE5485A05055_Col00" class="sf_colsIn col-sm-6"
+                                     data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                     <div>
+                                         <div><a href="5f1f76c2-6f97-431e-b1b8-57684e69b54c"><img
+                                                     data-method="CropCropArguments"
+                                                     data-customsizemethodproperties="'MaxWidth':null,'MaxHeight':null,'Width':320,'Height':80,'ScaleUp':false,'Quality':'High','Method':'CropCropArguments'}"
+                                                     src="/images/default-source/default-album/boe_logo.png?sfvrsn=898e93f3_2&amp;Width=320&amp;Height=80&amp;ScaleUp=false&amp;Quality=High&amp;Method=CropCropArguments&amp;Signature=93A64BF97A03C847A74EF5E7044451C0DE7C6449"
+                                                     alt="Board Of Elections Logo. Ohio Map in letter O in Vote Cuyahoga County."
+                                                     title="BOE_LOGO" data-displaymode="Custom"
+                                                     style="float:left;max-height:80px;padding-left:13%;"
+                                                     class="boeLogo" /></a></div>
+                                     </div>
+                                 </div>
+                                 <div id="Contentplaceholder1_TE5485A05055_Col01" class="sf_colsIn col-sm-6"
+                                     data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                     <div class="search-box search-box--header form-inline">
+                                         <div class="input-group mt-3" style="margin-bottom: .2rem !important;">
+                                             <input class="form-control" id="txtSiteSearch" type="text"
+                                                 placeholder="Insert Keyword to search" autocomplete="off"
+                                                 data-axe-pro-tab-stop-index="4">
+                                             <div class="input-group-append">
+                                                 <button class="btn btn-search" id="btnSiteSearch" type="submit"
+                                                     title="Submit to view search results.">
+                                                     <i class="fas fa-search" style="font-size:1.2rem!important"></i>
+                                                 </button>
+                                             </div>
+                                         </div>
+                                         <div id="querydiv" name="querydiv"></div>
+                                     </div>
+
+
+
+
+
+
+
+
+                                 </div>
+                             </div>
+                             <div class="row" data-sf-element="Row">
+                                 <div id="Contentplaceholder1_TAA75111F034_Col00" class="sf_colsIn col-lg-12"
+                                     data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+
+
+
+
+
+                                     <script>
+                                         $(document).ready(function () {
+                                             //if ($(window).width() > 992) {
+                                             //    $(window).scroll(function () {
+                                             //        if ($(this).scrollTop() > 40) {
+                                             //            $('#navbar_top').addClass("fixed-top");
+                                             //            // add padding top to show content behind navbar
+                                             //            $('body').css('padding-top', $('.navbar').outerHeight() + 'px');
+                                             //        } else {
+                                             //            $('#navbar_top').removeClass("fixed-top");
+                                             //            // remove padding top from body
+                                             //            $('body').css('padding-top', '0');
+                                             //        }
+                                             //    });
+                                             //} // end if
+
+
+                                         }); // jquery end
+                                     </script>
+
+
+
+
+
+
+
+                                     <nav id="navbar_top" class="navbar navbar-expand-md  navbar-custom">
+                                         <div class="container-fluid" style="padding-left:6%;">
+
+                                             <button class="navbar-toggler custom-toggler" type="button"
+                                                 data-toggle="collapse" data-target='#navbar-1' aria-controls='navbar-1'
+                                                 aria-expanded="false" aria-label="Toggle navigation">
+                                                 <span class="navbar-toggler-icon"></span>
+                                             </button>
+                                             <div class="collapse navbar-collapse" id='navbar-1'>
+                                                 <ul class="navbar-nav mr-auto">
+                                                     <li class="nav-item ">
+                                                         <a class="nav-link" href="/" target="_self">Home</a>
+                                                     </li>
+                                                     <li class="nav-item ">
+                                                         <a class="nav-link" href="/voters" target="_self">Voters</a>
+                                                     </li>
+                                                     <li class="nav-item ">
+                                                         <a class="nav-link" href="/candidates"
+                                                             target="_self">Candidates</a>
+                                                     </li>
+                                                     <li class="nav-item ">
+                                                         <a class="nav-link" href="/election-day-workers"
+                                                             target="_self">Election Day Workers</a>
+                                                     </li>
+                                                     <li class="nav-item ">
+                                                         <a class="nav-link" href="/elections"
+                                                             target="_self">Elections</a>
+                                                     </li>
+                                                     <li class="nav-item ">
+                                                         <a class="nav-link" href="/maps-and-data" target="_self">Maps
+                                                             and Data</a>
+                                                     </li>
+                                                     <li class="nav-item active">
+                                                         <a class="nav-link" href="/about-us" target="_self">About
+                                                             Us</a>
+                                                     </li>
+                                                 </ul>
+                                             </div> <!-- navbar-collapse.// -->
+                                         </div> <!-- container.// -->
+                                     </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     <div>
+                                         <nav aria-label="Full path to the current page">
+                                             <ol class="sf-breadscrumb breadcrumb">
+                                                 <li class="breadcrumb-item"><a href="/">Home </a></li>
+                                                 <li class="breadcrumb-item"><a href="/about-us">About Us </a></li>
+                                                 <li class="breadcrumb-item active" aria-current="page">Board Meeting
+                                                     Documents</li>
+                                             </ol>
+                                         </nav>
+                                         <span id="main-content"></span>
+                                     </div>
+                                     <section id="Contentplaceholder1_TE5485A05070_Col00" class="sf_colsIn"
+                                         data-sf-element="Section"
+                                         data-placeholder-label="Section for ALERT for entire site."></section>
+                                 </div>
+                             </div>
+                         </section>
+
+
+                         <div>
+                         </div>
+
+                         <style>
+                             /*should take effect only when alert added to template*/
+                             #Contentplaceholder1_TAA75111F019_Col00 {
+                                 margin-top: 40px;
+                             }
+                         </style>
+                         <section id="Contentplaceholder1_TAA75111F019_Col00" class="sf_colsIn"
+                             data-sf-element="Section" data-placeholder-label="Section">
+                             <div class="row" data-sf-element="Row">
+                                 <div id="Contentplaceholder1_TAA75111F039_Col00" class="sf_colsIn col-lg-8 h1"
+                                     data-sf-element="Column 1" data-placeholder-label="Enter Page Title">
+                                     <div>
+                                         <div>
+                                             <h1>Board Meeting Documents</h1>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div id="Contentplaceholder1_TAA75111F039_Col01" class="sf_colsIn col-lg-4"
+                                     data-sf-element="Column 2"
+                                     data-placeholder-label="Enter Page Sub-title (if necessary)">
+                                 </div>
+                             </div>
+
+                             <div>
+                                 <div>
+                                     <p><a class="btn btn-link" role="button" target="_blank"
+                                             href="/docs/default-source/boe/board-meeting-documents/boardschedule.pdf?sfvrsn=7983b1c6_8"
+                                             title="Board Meeting Schedule"><span style="font-size:large;">Board Meeting
+                                                 Schedule</span> <em class="far fa-file-pdf"></em></a></p>
+                                 </div>
+                             </div>
+                             <div>
+                                 <div>
+                                     <h2>2022 Board Meetings</h2>
+                                     <hr />
+                                 </div>
+                             </div>
+                             <div class="row" data-sf-element="Row">
+                                 <div id="Contentplaceholder1_C219_Col00" class="sf_colsIn col-lg-3"
+                                     data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                     <div>
+                                         <div>
+                                             <h3 class="heading-s">1/25/2022</h3>
+                                             <p><a class="btn btn-link" role="button" target="_blank"
+                                                     href="/docs/default-source/boe/board-meeting-documents/2022-01-25-agenda.pdf?sfvrsn=de8754af_0"
+                                                     title="Agenda">Agenda <em class="far fa-file-pdf"></em></a>
+                                                 <a class="btn btn-link" role="button" target="_blank"
+                                                     href="/docs/default-source/boe/board-meeting-documents/2022-01-25-board-packet.pdf?sfvrsn=bbd022c_0"
+                                                     title="Board Packet">Board Packet <em
+                                                         class="far fa-file-pdf"></em></a></p>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div id="Contentplaceholder1_C219_Col01" class="sf_colsIn col-lg-3"
+                                     data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                     <div>
+                                         <div>
+                                             <h3 class="heading-s">1/11/2022</h3>
+                                             <p><a class="btn btn-link" role="button" target="_blank"
+                                                     href="/docs/default-source/boe/board-meeting-documents/2022-1-11-agenda.pdf?sfvrsn=91db86de_4"
+                                                     title="2022-1-11 Agenda">Agenda <em
+                                                         class="far fa-file-pdf"></em></a>
+                                                 <a class="btn btn-link" role="button" target="_blank"
+                                                     href="/docs/default-source/boe/board-meeting-documents/2022-1-11-board-packet.pdf?sfvrsn=76b6ff4e_2"
+                                                     title="Board Packet">Board Packet <em
+                                                         class="far fa-file-pdf"></em></a></p>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div id="Contentplaceholder1_C219_Col02" class="sf_colsIn col-lg-3"
+                                     data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                 </div>
+                                 <div id="Contentplaceholder1_C219_Col03" class="sf_colsIn col-lg-3"
+                                     data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                 </div>
+                             </div>
+
+                             <div>
+                                 <div>
+                                     <h2>2021 Board Meetings</h2>
+                                     <hr />
+                                 </div>
+                             </div>
+                             <div class="row" data-sf-element="Row">
+                                 <div id="Contentplaceholder1_C141_Col00" class="sf_colsIn col-lg-12"
+                                     data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C227_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">12/8/2021</h3>
+                                                     <p><a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-12-8-agenda.pdf?sfvrsn=b84935d6_0"
+                                                             title="2021-12-8 Agenda">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-12-28-board-packet.pdf?sfvrsn=c6402cd9_0"
+                                                             title="Board Packet">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-12-08-minutes.pdf?sfvrsn=b360a907_0"
+                                                             title="Minutes">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a></p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C227_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                         </div>
+                                         <div id="Contentplaceholder1_C227_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C227_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C203_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">11/22/2021</h3>
+                                                     <p><a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-11-22-agenda.pdf?sfvrsn=2a81c896_0"
+                                                             title="Agenda">Agenda <em class="far fa-file-pdf"></em></a>
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-11-22-board-packet.pdf?sfvrsn=9a7af166_0"
+                                                             title="Board Packet">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-11-22-minutes.pdf?sfvrsn=7a396a1_0"
+                                                             title="Minutes">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a></p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C203_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">11/15/2021</h3>
+                                                     <p><a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-11-15agenda.pdf?sfvrsn=5cee1748_0"
+                                                             title="Agenda">Agenda <em class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-11-15boardpacket.pdf?sfvrsn=3a310c20_0"
+                                                             title="Board Packet">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-11-15-minutes.pdf?sfvrsn=d5311be6_0"
+                                                             title="Minutes">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C203_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">11/1/2021</h3>
+                                                     <p><a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/11012021agenda.pdf?sfvrsn=d70733bf_0"
+                                                             title="Agenda">Agenda <em class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/11012021boardpacket.pdf?sfvrsn=30e4164b_0"
+                                                             title="Board Packet">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-11-01minutes.pdf?sfvrsn=3c4417de_0"
+                                                             title="Minutes">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C203_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C199_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">10/18/2021</h3>
+                                                     <p><a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/10-18-2021agenda.pdf?sfvrsn=f89df2b1_0"
+                                                             title="Agenda">Agenda <em class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/101821boardpacket.pdf?sfvrsn=13ccd8aa_0"
+                                                             title="Board Packet">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/10182021boardminutes.pdf?sfvrsn=e24604a0_0"
+                                                             title="Minutes">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C199_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">10/1/2021</h3>
+                                                     <p><a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/10012021agenda.pdf?sfvrsn=1bff6d0f_0"
+                                                             title="Agenda">Agenda <em class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/10012021packet.pdf?sfvrsn=7dfd8003_0"
+                                                             title="Board Packet">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/10012021minutes.pdf?sfvrsn=8093ede3_0"
+                                                             title="Minutes">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C199_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C199_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C197_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">9/28/2021</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda9282021.pdf?sfvrsn=5b16dc61_0"
+                                                             title="Agenda" class="btn btn-link" role="button"
+                                                             target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a title="Board Packet" class="btn btn-link" role="button"
+                                                             target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/9282021boardpacket.pdf?sfvrsn=4f810904_0">Board
+                                                             Packet <em class="far fa-file-pdf"></em></a>
+
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/092821minutes.pdf?sfvrsn=d3319e8e_0"
+                                                             title="9/13/2021 Minutes" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C197_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">9/13/2021</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda9-13-2021.pdf?sfvrsn=39625d46_0"
+                                                             title="Agenda" class="btn btn-link" role="button"
+                                                             target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a title="Board Packet" class="btn btn-link" role="button"
+                                                             target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/9132021boardpacket.pdf?sfvrsn=3c4dc4c4_0">Board
+                                                             Packet <em class="far fa-file-pdf"></em></a>
+
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/091321minutes.pdf?sfvrsn=85b6bddf_0"
+                                                             title="9/13/2021 Minutes" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C197_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C197_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C145_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">8/23/2021</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda8-23-2021.pdf?sfvrsn=bb441bc7_2"
+                                                             title="Agenda August 23, 2021" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/boardpacket8-23-2021.pdf?sfvrsn=a8e0de0c_2"
+                                                             title="Board Packet August 23, 2021" class="btn btn-link"
+                                                             role="button" target="_blank">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a title="Minutes" class="btn btn-link" role="button"
+                                                             target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/8-23-2021minutes.pdf?sfvrsn=e6b86806_0">Minutes
+                                                             <em class="far fa-file-pdf"></em></a>
+
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C145_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">8/16/2021</h3>
+                                                     <p><a title="Agenda" class="btn btn-link" role="button"
+                                                             target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/boardagenda8-16-202194a9aa885f1a418c88f9ead1adcd6a7c.pdf?sfvrsn=21b3eb78_0">Agenda
+                                                             <em class="far fa-file-pdf"></em></a>
+
+                                                         <a title="Board Packet" class="btn btn-link" role="button"
+                                                             target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/8-16-2021boardpacket.pdf?sfvrsn=22c48a68_0">Board
+                                                             Packet <em class="far fa-file-pdf"></em></a>
+
+                                                         <a title="Minutes" class="btn btn-link" role="button"
+                                                             target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/8-16-2021minutes.pdf?sfvrsn=6353c70c_0">Minutes
+                                                             <em class="far fa-file-pdf"></em></a>
+
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C145_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C145_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C207_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">7/21/2021</h3>
+                                                     <p><a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/7-21-2021-board-agenda.pdf?sfvrsn=c9d620ea_0"
+                                                             title="Agenda">Agenda <em class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/7-21-2021-board-packet.pdf?sfvrsn=e0e134e7_0"
+                                                             title="Board Packet">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/7-21-2021minutes.pdf?sfvrsn=3d162efe_0"
+                                                             title="Minutes">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C207_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                         </div>
+                                         <div id="Contentplaceholder1_C207_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C207_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C209_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">6/28/2021</h3>
+                                                     <p><a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-6-28-agenda.pdf?sfvrsn=5757448_0"
+                                                             title="Agenda">Agenda <em class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-6-28-board-packet.pdf?sfvrsn=6dbe1a15_0"
+                                                             title="Board Packet">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-6-28-minutes.pdf?sfvrsn=aef47077_0"
+                                                             title="Minutes">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C209_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">6/14/2021</h3>
+                                                     <p><a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-6-14-agenda.pdf?sfvrsn=7a0c00cd_0"
+                                                             title="Agenda">Agenda <em class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-6-14-board-packet.pdf?sfvrsn=dd3496e0_0"
+                                                             title="Board Packet">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-6-14-minutes.pdf?sfvrsn=2c9e70ae_0"
+                                                             title="Minutes">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C209_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C209_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C212_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">5/25/2021</h3>
+                                                     <p><a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-5-25-agenda.pdf?sfvrsn=97cf276b_0"
+                                                             title="Agenda">Agenda <em class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-5-25-board-packet.pdf?sfvrsn=9501f68b_0"
+                                                             title="Board Packet">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-5-25-minutes.pdf?sfvrsn=8707129d_0"
+                                                             title="Minutes">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C212_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">5/17/2021</h3>
+                                                     <p><a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-5-17-agenda.pdf?sfvrsn=47f1be47_0"
+                                                             title="Agenda">Agenda <em class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-5-17-board-packet.pdf?sfvrsn=c90a428c_0"
+                                                             title="Board Packet">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-5-17-minutes.pdf?sfvrsn=c80dc4f7_0"
+                                                             title="Minutes">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C212_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">5/3/2021</h3>
+                                                     <p><a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-5-3-agenda.pdf?sfvrsn=fbc3e06c_0"
+                                                             title="Agenda">Agenda <em class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-5-3-board-packet.pdf?sfvrsn=e4eb7c9f_0"
+                                                             title="Board Packet">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-5-3-minutes.pdf?sfvrsn=e7e181fc_0"
+                                                             title="Minutes">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C212_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C217_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">4/5/2021</h3>
+                                                     <p><a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-4-5-agenda.pdf?sfvrsn=706db5c8_0"
+                                                             title="Agenda">Agenda <em class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-4-5-board-packet.pdf?sfvrsn=a9822104_0"
+                                                             title="Board Packet">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a class="btn btn-link" role="button" target="_blank"
+                                                             href="/docs/default-source/boe/board-meeting-documents/2021-4-5-minutes.pdf?sfvrsn=ffc14b7_0"
+                                                             title="Minutes">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C217_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                         </div>
+                                         <div id="Contentplaceholder1_C217_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C217_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C142_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">3/30/2021</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-3-30-21-(1).pdf?sfvrsn=a58c639f_2"
+                                                             title="Agenda 03/30/2021" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/board-packet-3-30-21-(1).pdf?sfvrsn=4eac5243_2"
+                                                             title="Board Packet 03/30/2021" class="btn btn-link"
+                                                             role="button" target="_blank">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/board-packet-3-30-21-(1).pdf?sfvrsn=4eac5243_2"
+                                                             title="Board Packet 03/30/2021" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C142_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">3/22/2021</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-3-22-21-(1).pdf?sfvrsn=81e79ef2_2"
+                                                             title="Agenda 03/22/2021" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-3-22-21-(1).pdf?sfvrsn=b7e67cb_2"
+                                                             title="Minutes 03/22/2021" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a></p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C142_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">03/12/2021</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-3-12-21-(1).pdf?sfvrsn=9b1527c2_2"
+                                                             title="Agenda 03/12/2021" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/board-packet-3-12-21-(1).pdf?sfvrsn=dda0a92a_2"
+                                                             title="Board Packet 03/12/2021" class="btn btn-link"
+                                                             role="button" target="_blank">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-3-12-21-(1).pdf?sfvrsn=7b57aec8_2"
+                                                             title="Minutes 03/12/2021" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C142_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">03/05/2021</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-3-5-21-(1).pdf?sfvrsn=fd1ddcd_2"
+                                                             title="Agenda 03/05/2021" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/board-packet-3-5-21-(1).pdf?sfvrsn=dab9ab1c_2"
+                                                             title="Board Packet 03/05/2021" class="btn btn-link"
+                                                             role="button" target="_blank">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a><a
+                                                             href="/docs/default-source/boe/board-meeting-documents/minutes-3-5-21-(1).pdf?sfvrsn=175e909c_2"
+                                                             title="Minutes 03/05/2021" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a></p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C150_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">02/16/2021</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-2-16-21-(1).pdf?sfvrsn=eb3335ed_2"
+                                                             title="Agenda 02/16/2021" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/board-packet-2-16-21-(1).pdf?sfvrsn=48f392_2"
+                                                             title="Board Packet 02/16/2021" class="btn btn-link"
+                                                             role="button" target="_blank">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-2-16-21-(1).pdf?sfvrsn=ff3a585d_2"
+                                                             title="Minutes 02/16/2021" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C150_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                         </div>
+                                         <div id="Contentplaceholder1_C150_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C150_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C151_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div class="mb-4">
+                                                 <div>
+                                                     <h3 class="heading-s">01/20/2021</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-1-22-20-(1).pdf?sfvrsn=e9372edc_2"
+                                                             title="Agenda 01/22/2021" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/board-packet-1-20-21-(1).pdf?sfvrsn=ad2b71d9_2"
+                                                             title="Board Packet 01/20/2021" class="btn btn-link"
+                                                             role="button" target="_blank">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a><a
+                                                             href="/docs/default-source/boe/board-meeting-documents/minutes-1-20-21-(1).pdf?sfvrsn=cde0fdb7_2"
+                                                             title="Minutes 01/20/2021" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a></p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C151_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                         </div>
+                                         <div id="Contentplaceholder1_C151_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C151_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+
+                                     <div>
+                                         <div>
+                                             <h2>2020 Board Meetings</h2>
+                                             <hr />
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C154_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">12/21/2020</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-12-21-20-(1).pdf?sfvrsn=ab9179e0_2"
+                                                             title="Agenda December 21, 2020" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/board-packet-12-21-20-(1).pdf?sfvrsn=7cff7e03_2"
+                                                             title="Board Packet 12/21/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-12-21-20-(1).pdf?sfvrsn=205016e2_2"
+                                                             title="Minutes 12/21/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a></p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C154_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">12/7/2020</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-12-7-20-(1).pdf?sfvrsn=ade3f564_2"
+                                                             title="Agenda 12/07/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/board-packet-12-21-20-(1).pdf?sfvrsn=7cff7e03_2"
+                                                             title="Board Packet 12/21/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-12-21-20-(1).pdf?sfvrsn=205016e2_2"
+                                                             title="Minutes 12/21/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C154_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C154_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C164_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">11/18/2020</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-12-7-20-(1).pdf?sfvrsn=ade3f564_2"
+                                                             title="Agenda 12/07/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/board-packet-12-7-20-(1).pdf?sfvrsn=4b3bf33e_2"
+                                                             title="Board Packet 12/07/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a></p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C164_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">11/14/2020</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-11-14-20-(1).pdf?sfvrsn=c30444c1_2"
+                                                             title="Agenda 11/14/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/board-packet-11-14-20-(1).pdf?sfvrsn=82036d80_2"
+                                                             title="Board Packet 11/14/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C164_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C164_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C163_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">10/20/2020</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/board-packet-10-19-20-(1).pdf?sfvrsn=e4a43fb9_2"
+                                                             title="Board Packet 10/19/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-10-19-20-(1).pdf?sfvrsn=87195948_2"
+                                                             title="Minutes 10/19/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C163_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">10/16/2020</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-10-16-20-(1).pdf?sfvrsn=a7fd1970_2"
+                                                             title="Agenda 10/16/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/board-packet-10-16-20-(1).pdf?sfvrsn=1d6696f3_2"
+                                                             title="Board Packet 10/16/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-10-16-20-(1).pdf?sfvrsn=7d4bd539_2"
+                                                             title="Minutes 10/16/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C163_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C163_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C162_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">9/30/2020</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-9-30-20-(1).pdf?sfvrsn=b1af7d63_2"
+                                                             title="Agenda 9/30/2020" class="btn btn-link" role="button"
+                                                             target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-9-30-20-(1).pdf?sfvrsn=89e6a4d7_2"
+                                                             title="Minutes 09/30/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C162_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">09/28/2020</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-9-28-20-(1).pdf?sfvrsn=cb3f555e_2"
+                                                             title="Agenda 09/28/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/board-packet-10-16-20-(1).pdf?sfvrsn=1d6696f3_2"
+                                                             title="Board Packet 10/16/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-9-28-20-(1).pdf?sfvrsn=d93c2496_2"
+                                                             title="Minutes 09/28/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C162_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">09/14/2020</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-9-14-20-(1).pdf?sfvrsn=9b7877fd_2"
+                                                             title="Agenda 09/14/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/board-packet-9-14-20-(1).pdf?sfvrsn=97edd1fd_2"
+                                                             title="Board Packet 09/14/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-9-14-20-(1).pdf?sfvrsn=669a4686_2"
+                                                             title="Minutes 09/14/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C162_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C161_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">08/25/2020</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-8-25-20-(1).pdf?sfvrsn=b80dd0c1_2"
+                                                             title="Agenda 08/25/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/board-packet-8-25-20-(1).pdf?sfvrsn=682ecb4e_2"
+                                                             title="Board Packet 08/25/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-8-25-20-(1).pdf?sfvrsn=1ef82552_2"
+                                                             title="Minutes 08/25/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C161_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">08/17/2020</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-8-17-20-(1).pdf?sfvrsn=1d61f978_2"
+                                                             title="Agenda 08/17/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/board-packet-8-17-20-(1).pdf?sfvrsn=150c4a85_2"
+                                                             title="Board Packet 08/17/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-8-17-20-(1).pdf?sfvrsn=4a95fa20_2"
+                                                             title="Minutes 08/17/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C161_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C161_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C160_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">07/13/2020</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-7-13-20-(1).pdf?sfvrsn=d676da5a_2"
+                                                             title="Agenda 07/13/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/board-packet-7-13-20-(1).pdf?sfvrsn=15a08a47_2"
+                                                             title="Board Packet 07/13/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-7-13-20-(1).pdf?sfvrsn=63c1a6ce_2"
+                                                             title="Minutes 07/13/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C160_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                         </div>
+                                         <div id="Contentplaceholder1_C160_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C160_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C159_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">06/22/2020</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-6-22-20-(1).pdf?sfvrsn=13d8a4ab_2"
+                                                             title="Agenda June 22, 2020" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/board-packet-6-22-20-(1).pdf?sfvrsn=6e636d36_2"
+                                                             title="Board Packet June 22, 2020" class="btn btn-link"
+                                                             role="button" target="_blank">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-6-22-20-(1).pdf?sfvrsn=66686736_2"
+                                                             title="Minutes June 22, 2020" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a></p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C159_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">06/08/2020</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/board-packet-6-8-20-(1).pdf?sfvrsn=5021148b_2"
+                                                             title="Board Packet June 8, 2020" class="btn btn-link"
+                                                             role="button" target="_blank">Board Packet <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-6-8-20-(1).pdf?sfvrsn=6866bfaf_2"
+                                                             title="Minutes June 8, 2020" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C159_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C159_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C158_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">05/22/2020</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-5-22-20-(1).pdf?sfvrsn=c36a1947_2"
+                                                             title="Agenda May 22, 2020" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-5-22-20-(1).pdf?sfvrsn=df64ccef_2"
+                                                             title="Minutes May 22, 2020" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C158_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">05/19/2020</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-5-19-20-(1).pdf?sfvrsn=80f70af1_2"
+                                                             title="Agenda 05/19/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-5-19-20-(1).pdf?sfvrsn=b3d5ceae_2"
+                                                             title="Minutes 05/19/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C158_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">05/11/2020</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-5-11-20-(1).pdf?sfvrsn=a64d707_2"
+                                                             title="Agenda 05/11/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-5-11-20-(1).pdf?sfvrsn=68d24ce7_2"
+                                                             title="Minutes 05/11/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C158_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C157_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">04/07/2020</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-4-7-20-(1).pdf?sfvrsn=5aaf7487_2"
+                                                             title="Agenda 04/07/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-4-7-20-(1).pdf?sfvrsn=2621b74d_2"
+                                                             title="Minutes 04/07/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C157_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                         </div>
+                                         <div id="Contentplaceholder1_C157_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C157_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C156_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">03/16/2020</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-3-16-20-(1).pdf?sfvrsn=8c1e9938_2"
+                                                             title="Agenda 03/16/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"> </em></a>
+
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-3-16-20-(1).pdf?sfvrsn=77d820ab_2"
+                                                             title="Minutes 03/16/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"> </em></a>
+
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C156_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                         </div>
+                                         <div id="Contentplaceholder1_C156_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C156_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C155_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">02/19/2020</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-2-19-20-(1).pdf?sfvrsn=a723d282_2"
+                                                             title="Agenda 02/19/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-2-19-20-(1).pdf?sfvrsn=64977a7f_2"
+                                                             title="Minutes 02/19/2020" class="btn btn-link"
+                                                             role="button" target="_blank">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C155_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                         </div>
+                                         <div id="Contentplaceholder1_C155_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C155_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C174_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                             <div>
+                                                 <div>
+                                                     <h3 class="heading-s">01/22/2020</h3>
+                                                     <p><a href="/docs/default-source/boe/board-meeting-documents/agenda-1-22-20-(1).pdf?sfvrsn=e9372edc_2"
+                                                             title="Agenda 01/22/2020">Agenda <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+                                                         <a href="/docs/default-source/boe/board-meeting-documents/minutes-01-22-20-(1).pdf?sfvrsn=7cbf2a02_2"
+                                                             title="Minutes 01/22/2020">Minutes <em
+                                                                 class="far fa-file-pdf"></em></a>
+
+
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div id="Contentplaceholder1_C174_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                         </div>
+                                         <div id="Contentplaceholder1_C174_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C174_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C175_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                         </div>
+                                         <div id="Contentplaceholder1_C175_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                         </div>
+                                         <div id="Contentplaceholder1_C175_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C175_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C176_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                         </div>
+                                         <div id="Contentplaceholder1_C176_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                         </div>
+                                         <div id="Contentplaceholder1_C176_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C176_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+                                     <div class="row" data-sf-element="Row">
+                                         <div id="Contentplaceholder1_C177_Col00" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                         </div>
+                                         <div id="Contentplaceholder1_C177_Col01" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                         </div>
+                                         <div id="Contentplaceholder1_C177_Col02" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                         </div>
+                                         <div id="Contentplaceholder1_C177_Col03" class="sf_colsIn col-lg-3"
+                                             data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                         </div>
+                                     </div>
+
+                                 </div>
+                             </div>
+                             <div class="row" data-sf-element="Row">
+                                 <div id="Contentplaceholder1_TAA75111F015_Col00" class="sf_colsIn col-lg-12"
+                                     data-sf-element="Column 1"
+                                     data-placeholder-label="Drag-n-drop Content Block and add Main Content of your page.">
+                                     <div id="Contentplaceholder1_TE5485A05080_Col00" class="sf_colsIn container"
+                                         data-sf-element="Container" data-placeholder-label="Container">
+
+                                         <br />
+                                         <hr />
+
+                                         <div id="survey" class="form-inline" style="margin-top:35px;font-size:90%;">
+                                             <div class="">
+                                                 <div id="yesno" class="form-group">
+                                                     <label for="btnyes"> Was this page helpful? &nbsp;&nbsp; </label>
+                                                     <button id="btnyes" class="form-control btn btn-outline-primary"
+                                                         style="font-weight: 600;">Yes</button>&nbsp;&nbsp;
+                                                     <button id="btnno" class="form-control btn btn-outline-primary"
+                                                         style="font-weight: 600;">No</button>
+                                                 </div>
+                                                 <div id="comment" class="form-group">
+                                                     <div id="feedback">How could we make it better?</div>
+                                                     <textarea id="usercomment" rows="3" style="width:97%;"></textarea>
+                                                     <button id="btnsubmit" class="form-control btn btn-outline-primary"
+                                                         style="margin-top:5px;font-weight: 600;">Submit</button>&nbsp;&nbsp;
+                                                     <button id="btncancel" class="form-control btn btn-outline-primary"
+                                                         style="margin-top:5px;font-weight: 600;">Cancel</button>
+                                                     <span id="emptycommenterror"
+                                                         style="color:red;margin-left:5px;">Please leave a comment
+                                                         before submitting.</span>
+                                                 </div>
+                                                 <div id="thankyou" class="form-group" style="display:block;">
+                                                     <div style="width:auto;font-weight: 600;">Thank you for your
+                                                         feedback</div>
+                                                     <div style="width:auto;margin-top:0px;"> Your feedback means a lot
+                                                         to us. We use it to improve the experience of all of our users.
+                                                     </div><br />
+                                                 </div>
+                                             </div>
+
+                                             <input type="hidden" id="id">
+                                             <input type="hidden" id="answer">
+                                         </div>
+
+
+                                         <script>
+                                             $(document).ready(function () {
+
+                                                 $("#btnyes").click(function () {
+                                                     process('Yes');
+                                                 });
+
+                                                 $("#btnno").click(function () {
+                                                     process('No');
+                                                 });
+
+                                                 $("#btnsubmit").click(function () {
+                                                     var comment = $("#usercomment").val();
+                                                     if (comment === "") {
+                                                         $("#emptycommenterror").show();
+                                                         return;
+                                                     }
+                                                     process('comment');
+                                                 });
+
+                                                 $("#btncancel").click(function () {
+                                                     $("#yesno").show();
+                                                     $("#comment").hide();
+                                                     $("#thankyou").hide();
+
+                                                     $("#id").val("");
+                                                     $("#answer").val("");
+                                                 });
+
+                                                 $("#yesno").show();
+                                                 $("#comment").hide();
+                                                 $("#thankyou").hide();
+
+                                                 function process(response) {
+                                                     var url =
+                                                         "/about-us/board-meeting-documents/ProcessSurvey/";
+                                                     url = url.replace("/itefinity/",
+                                                     "/Sitefinity/"); // fix SF routing issue
+
+                                                     var data = {};
+
+                                                     if (response == 'comment') {
+
+                                                         data = {
+                                                             ID: $("#id").val(),
+                                                             Answer: $("#answer").val(),
+                                                             Action: "comment",
+                                                             Comment: $("#usercomment").val()
+                                                         };
+                                                     } else {
+                                                         data = {
+                                                             ID: "",
+                                                             Answer: response,
+                                                             Action: "",
+                                                             Comment: ""
+                                                         };
+                                                     }
+
+                                                     $.ajax({
+                                                         type: "POST",
+                                                         url: url,
+                                                         data: JSON.stringify(data),
+                                                         contentType: "application/json; charset=utf-8",
+                                                         dataType: 'json'
+                                                     }).done(function (result) {
+
+                                                         if (result.Action === 'showcomment') {
+                                                             $("#yesno").hide();
+                                                             $("#comment").show();
+                                                             $("#thankyou").hide();
+                                                             $("#emptycommenterror").hide();
+
+                                                             $("#id").val(result.ID);
+                                                             $("#answer").val(result.Answer);
+                                                         } else if (result.Action === 'showthankyou') {
+
+                                                             $("#yesno").hide();
+                                                             $("#comment").hide();
+                                                             $("#thankyou").show();
+                                                         } else if (result.Action === 'reset') {
+
+                                                             $("#yesno").show();
+                                                             $("#comment").hide();
+                                                             $("#thankyou").hide();
+
+                                                             $("#id").val();
+                                                             $("#answer").val();
+                                                         }
+
+                                                     }).fail(function () {})
+                                                 }
+                                             });
+                                         </script>
+
+
+                                     </div>
+
+                                 </div>
+                             </div>
+                         </section>
+                     </main> <!-- end Main Content -->
+                 </div>
+                 <!--end Site Main -->
+                 <!-- Footer -->
+                 <footer class="footer mb-6" aria-label="Site Footer" role="contentinfo">
+                     <div class="container-fluid">
+                         <section id="Footer_TAA75111F036_Col00" class="sf_colsIn" data-sf-element="Section"
+                             data-placeholder-label="Section">
+                             <div class="row" data-sf-element="Row">
+                                 <div id="Footer_TE5485A05092_Col00" class="sf_colsIn col-lg-3"
+                                     data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                     <div>
+                                         <div>
+                                             <p class="heading-s">Information For</p>
+                                             <ul class="list-unstyled">
+                                                 <li><a href="/voters">Voters</a></li>
+                                                 <li><a href="/candidates">Candidates</a></li>
+                                                 <li><a href="/election-day-workers">Election Day Workers</a> </li>
+                                             </ul>
+                                             <p class="heading-s">Follow Us</p>
+                                             <ul class="list-unstyled">
+                                                 <li class="list-inline-item"><a
+                                                         href="https://www.facebook.com/cuyahogaboe/"
+                                                         target="_blank"><em class="fab fa-facebook fa-2x"
+                                                             aria-hidden="true"></em><span
+                                                             class="text-hide">Facebook</span></a></li>
+                                                 <li class="list-inline-item"><a href="http://twitter.com/CuyahogaBOE"
+                                                         target="_blank"><em class="fab fa-twitter-square fa-2x"
+                                                             aria-hidden="true"></em><span
+                                                             class="text-hide">Twitter</span></a></li>
+                                                 <li class="list-inline-item"><a
+                                                         href="https://www.instagram.com/cuyahogaboe/"
+                                                         target="_blank"><em class="fab fa-instagram-square fa-2x"
+                                                             aria-hidden="true"></em><span
+                                                             class="text-hide">Instagram</span></a></li>
+                                                 <li class="list-inline-item"><a
+                                                         href="https://www.linkedin.com/company/cuyahoga-county-board-of-elections"
+                                                         target="_blank"><em class="fab fa-linkedin fa-2x"
+                                                             aria-hidden="true"></em><span
+                                                             class="text-hide">Linkedin</span></a> </li>
+                                                 <li class="list-inline-item"><a
+                                                         href="https://www.youtube.com/c/cuyahogacountyboe/"
+                                                         target="_blank"><em class="fab fa-youtube-square fa-2x"
+                                                             aria-hidden="true"></em><span
+                                                             class="text-hide">Youtube</span></a></li>
+                                             </ul>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div id="Footer_TE5485A05092_Col01" class="sf_colsIn col-lg-3"
+                                     data-sf-element="Column 2" data-placeholder-label="Column 2">
+                                     <div>
+                                         <div>
+                                             <p class="heading-s">Contact Us</p>
+                                             <p><a href="https://www.google.com/maps/place/2925+Euclid+Ave,+Cleveland,+OH+44115/@41.5027867,-81.6699872,17z/data=!3m1!4b1!4m5!3m4!1s0x8830fa5e6d3921d3:0x8e190fa66cff0b5e!8m2!3d41.5027867!4d-81.6677985"
+                                                     target="_blank"><em class="fas fa-map-marker-alt "
+                                                         aria-hidden="true"></em>Board of Elections</a>
+                                                 <br /><a
+                                                     href="https://www.google.com/maps/place/2925+Euclid+Ave,+Cleveland,+OH+44115/@41.5027867,-81.6699872,17z/data=!3m1!4b1!4m5!3m4!1s0x8830fa5e6d3921d3:0x8e190fa66cff0b5e!8m2!3d41.5027867!4d-81.6677985"
+                                                     target="_blank">2925 Euclid Avenue</a><br /><a
+                                                     href="https://www.google.com/maps/place/2925+Euclid+Ave,+Cleveland,+OH+44115/@41.5027867,-81.6699872,17z/data=!3m1!4b1!4m5!3m4!1s0x8830fa5e6d3921d3:0x8e190fa66cff0b5e!8m2!3d41.5027867!4d-81.6677985"
+                                                     target="_blank">Cleveland, OH 44115 <em
+                                                         class="fas fa-external-link-alt"></em></a>
+
+                                             </p>
+                                             <p><a href="tel:2164438683">(216) 443-8683 (VOTE)</a></p>
+                                             <p><a href="/about-us/contact-form">Contact us online</a></p>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div id="Footer_TE5485A05092_Col02" class="sf_colsIn col-lg-3"
+                                     data-sf-element="Column 3" data-placeholder-label="Column 3">
+                                     <div>
+                                         <div>
+                                             <p class="heading-s">State Resources<a target="_blank"
+                                                     href="https://www.ohiosos.gov/"><img
+                                                         data-method="ResizeFitToAreaArguments"
+                                                         data-customsizemethodproperties="{'MaxWidth':125,'MaxHeight':40,'Width':null,'Height':null,'ScaleUp':false,'Quality':'High','Method':'ResizeFitToAreaArguments'}"
+                                                         src="/images/default-source/default-album/logonavywhitebg.png?sfvrsn=576998d9_2&amp;MaxWidth=125&amp;MaxHeight=40&amp;ScaleUp=false&amp;Quality=High&amp;Method=ResizeFitToAreaArguments&amp;Signature=D641D65C5B308D65A5346B880B7AF7394969C50D"
+                                                         alt="Ohio Secretary of State. Frank LaRose logo"
+                                                         title="Ohio Secretary of State. Frank LaRose logo"
+                                                         data-displaymode="Custom"
+                                                         class="d-sm-none d-md-block mt-3" /></a></p>
+                                             <ul class="list-unstyled">
+                                                 <li><a href="https://olvr.ohiosos.gov" target="_blank">Register to Vote
+                                                         <em class="fas fa-external-link-alt"></em></a></li>
+                                                 <li><a href="https://olvr.ohiosos.gov" target="_blank">Update Your
+                                                         Voter Information <em
+                                                             class="fas fa-external-link-alt"></em></a></li>
+                                                 <li><a href="https://www.ohiosos.gov/elections/voters/current-voting-schedule"
+                                                         target="_blank">Voting Schedule <em
+                                                             class="fas fa-external-link-alt"></em></a></li>
+                                                 <li><a href="https://www.ohiosos.gov/campaign-finance"
+                                                         target="_blank">Campaign Finance <em
+                                                             class="fas fa-external-link-alt"></em></a></li>
+                                                 <li><a href="https://www.ohiosos.gov/legislation-and-ballot-issues"
+                                                         target="_blank">Legislation and Ballot Issues <em
+                                                             class="fas fa-external-link-alt"></em></a></li>
+                                             </ul>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div id="Footer_TE5485A05092_Col03" class="sf_colsIn col-lg-3"
+                                     data-sf-element="Column 4" data-placeholder-label="Column 4">
+                                     <div>
+                                         <div>
+                                             <p class="heading-s">Additional Resources</p>
+                                             <ul class="list-unstyled">
+                                                 <li><a href="/accessibility-statement"
+                                                         title="Accessibility Statement">Accessibility Statement</a>
+                                                 </li>
+                                                 <li><a href="/disclaimer" title="Disclaimer">Disclaimer</a></li>
+                                                 <li><a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a>
+                                                 </li>
+                                                 <li><a href="/about-us/public-records-policy"
+                                                         title="Public Records Policy">Public Records Policy</a></li>
+                                             </ul>
+                                             <p class="heading-s"">Supported Browsers / OS</p><p>Chrome, Firefox, Edge, iOS, Android</p></div>    
+</div>
+    </div>
+</div>
+</section></div> </footer> <!-- end Footer --> </div> </div> </div>  <script src="/Frontend-Assembly/Telerik.Sitefinity.Frontend.Navigation/Mvc/Scripts/LanguageSelector/language-selector.min.js?package=Bootstrap4&amp;v=MTMuMC43MzI3LjA%3d"
+                                                 type="text/javascript">
+                                                 </script>
+                                                 <script type="text/javascript"
+                                                     src="/WebResource.axd?d=NjxTqR2bqTw1rewxxlkHPuuCbp9XGoAIG2DO75nOJh_gUU9QBYFGVMZFbrgmenNmLz-oQxbJRzg47YdZQc0zsII7zmJ2ne3MHHFTkvOafSRW1KrsCul5Zd7WCqh4NGzRGUpmchLP8-oaZNeR3-6vScU4j1VWsVvv-84zG9dAcSZId7Q1OKOPZRAax4Oy_ieUhlzxfTJO1dMux-70JtYbKd26a_vGPo1s9X3VIcULQvM1&amp;t=637774068430910964">
+
+                                                 </script><input data-sf-role='es' type='hidden'
+                                                     value='https://boe.cuyahogacounty.gov/es/Sobre/documentos-de-la-reuni&#243;n-de-la-junta-directiva'>
+                                                 <a href="#" id="scroll" style="display: block;"
+                                                     title="go to top"><span>go to top</span></a>
+                                                 <script
+                                                     src="/ResourcePackages/Bootstrap4/assets/dist/js/CustomScripts.js">
+                                                 </script>
+                                                 <script
+                                                     src="/ResourcePackages/Bootstrap4/assets/dist/js/sweetalert2.all.min.js">
+                                                 </script>
+                                                 <link
+                                                     href="/ResourcePackages/Bootstrap4/assets/dist/css/sweetalert2.css"
+                                                     rel="stylesheet" />
+ </body>
+
+ </html>
+
+
+ <script id="f5_cspm">
+     (function () {
+         var f5_cspm = {
+             f5_p: 'DMJBJHIEGANJCBJIPHLOCKBLLIHHGJFDDGHDFDDBBKJKNNDEGDNKGGOIGJHFBDBFOMFBDAIOAAHIHEBAEMAAHGFBAALKAEOHIEBGALPPALJNIMMIGAFMIKDPJDEKHFIN',
+             setCharAt: function (str, index, chr) {
+                 if (index > str.length - 1) return str;
+                 return str.substr(0, index) + chr + str.substr(index + 1);
+             },
+             get_byte: function (str, i) {
+                 var s = (i / 16) | 0;
+                 i = (i & 15);
+                 s = s * 32;
+                 return ((str.charCodeAt(i + 16 + s) - 65) << 4) | (str.charCodeAt(i + s) - 65);
+             },
+             set_byte: function (str, i, b) {
+                 var s = (i / 16) | 0;
+                 i = (i & 15);
+                 s = s * 32;
+                 str = f5_cspm.setCharAt(str, (i + 16 + s), String.fromCharCode((b >> 4) + 65));
+                 str = f5_cspm.setCharAt(str, (i + s), String.fromCharCode((b & 15) + 65));
+                 return str;
+             },
+             set_latency: function (str, latency) {
+                 latency = latency & 0xffff;
+                 str = f5_cspm.set_byte(str, 40, (latency >> 8));
+                 str = f5_cspm.set_byte(str, 41, (latency & 0xff));
+                 str = f5_cspm.set_byte(str, 35, 2);
+                 return str;
+             },
+             wait_perf_data: function () {
+                 try {
+                     var wp = window.performance.timing;
+                     if (wp.loadEventEnd > 0) {
+                         var res = wp.loadEventEnd - wp.navigationStart;
+                         if (res < 60001) {
+                             var cookie_val = f5_cspm.set_latency(f5_cspm.f5_p, res);
+                             window.document.cookie = 'f5avr0315436155aaaaaaaaaaaaaaaa_cspm_=' +
+                                 encodeURIComponent(cookie_val) + ';path=/';
+                         }
+                         return;
+                     }
+                 } catch (err) {
+                     return;
+                 }
+                 setTimeout(f5_cspm.wait_perf_data, 100);
+                 return;
+             },
+             go: function () {
+                 var chunk = window.document.cookie.split(/\s*;\s*/);
+                 for (var i = 0; i < chunk.length; ++i) {
+                     var pair = chunk[i].split(/\s*=\s*/);
+                     if (pair[0] == 'f5_cspm' && pair[1] == '1234') {
+                         var d = new Date();
+                         d.setTime(d.getTime() - 1000);
+                         window.document.cookie = 'f5_cspm=;expires=' + d.toUTCString() + ';path=/;';
+                         setTimeout(f5_cspm.wait_perf_data, 100);
+                     }
+                 }
+             }
+         }
+         f5_cspm.go();
+     }());
+ </script>
