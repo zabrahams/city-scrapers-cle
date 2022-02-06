@@ -30,6 +30,8 @@ class CuyaElectionsSpider(CityScrapersSpider):
                 'page_response': response
             })
 
+    # As of 2/1/2022 some of the link so n the board meetings document page are wrong - specifically around nov of 2020
+    # if you see just those meetings seem wrong - it's due to the page's content and not the scraper!
     def _parse_documents(self, document_response, page_response):
         documents = {}
         content_section = document_response.css("section#Contentplaceholder1_TAA75111F019_Col00")
@@ -42,7 +44,6 @@ class CuyaElectionsSpider(CityScrapersSpider):
             parsed_links = [{link.css("::text").extract_first().strip(): link.attrib["href"] } for link in raw_links]
             documents[key] = parsed_links
 
-        logging.debug(documents)
         return self._parse_event_list(documents, page_response)
 
     def _parse_event_list(self, documents, response):
@@ -67,6 +68,7 @@ class CuyaElectionsSpider(CityScrapersSpider):
 
     def _parse_event_with_details(self, details, item, url, documents):
         start, end = self._parse_start_end(item)
+        documents_date_key = start.strftime('%m/%d/%Y')
         meeting = Meeting(
             title=self._parse_title(item),
             description=self._parse_description(details),
@@ -75,10 +77,13 @@ class CuyaElectionsSpider(CityScrapersSpider):
             end=end,
             all_day=False,
             time_notes="",
-            location=self._parse_location(details),
             links=[],
+            location=self._parse_location(details),
             source=url
         )
+
+        if documents_date_key in documents:
+            meeting["links"] = documents[documents_date_key]
 
         meeting["status"] = self._get_status(meeting)
         meeting["id"] = self._get_id(meeting)
