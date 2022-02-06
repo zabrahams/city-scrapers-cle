@@ -1,4 +1,5 @@
 import re
+import logging
 from datetime import datetime, timedelta
 
 from scrapy import Request
@@ -87,13 +88,12 @@ class CuyaElectionsSpider(CityScrapersSpider):
 
     def _parse_description(self, response):
         """Parse or generate description"""
-        description = response.css("div.related-content + p")
-        descriptions = description.css("::text").extract()
-        descriptions = [description.strip() for description in descriptions if ("About Us" not in description and "" != description)]
-        description_lis = description.css("li::text").extract()
-        description_lis = [description.strip() for description in description_lis]
+        main_description = response.css("div.related-content + p::text").extract()
+        list_item_descriptions = response.css('div.related-content ~ ul li::text').extract()
+        main_description_parsed = [description.strip() for description in main_description if ("About Us" not in description and "" != description.strip())]
+        list_item_descriptions_parsed = [description.strip() for description in list_item_descriptions]
         
-        description_str = " ".join(descriptions + description_lis)
+        description_str = " ".join(main_description_parsed + list_item_descriptions_parsed)
         return description_str
 
     # def parse(self, response):
