@@ -1,5 +1,3 @@
-import re
-import logging
 from datetime import datetime, timedelta
 
 from scrapy import Request
@@ -12,7 +10,12 @@ class CuyaElectionsSpider(CityScrapersSpider):
     name = "cuya_elections"
     agency = "Cuyahoga County Board of Elections"
     timezone = "America/Detroit"
-    start_urls = ["https://boe.cuyahogacounty.gov/calendar"]
+    start_urls = [
+        # We fetch past meetings from the first url and current/future ones
+        # from the second
+        "https://boe.cuyahogacounty.gov/calendar?sort=datedesc&it=Past%20Events&mpp=96",
+        "https://boe.cuyahogacounty.gov/calendar?it=Current%20Events&mpp=96"
+    ]
     location = {
         "name": "Board of Elections",
         "address": "2925 Euclid Ave, Cleveland, OH 44115",
@@ -20,9 +23,37 @@ class CuyaElectionsSpider(CityScrapersSpider):
     document_url = "https://boe.cuyahogacounty.gov/about-us/board-meeting-documents"
 
     def parse(self, response):
+        """
+        This scraper is fairly complicated because the info for each meeting
+        is distributed across three different places:
+        (1) The calendar page (which needs to be fetched separately for future
+            and past meetings)
+        (2) The minutes/presentations are in the about us/board documents page
+        (3) each meeting has a page including its description.
+        Scrapy makes all its requests asynchronously and then continues the flow
+        using callbacks, and this makes the flow a little convoluted.
+
+        In order to do the scraping we start with two initial urls - one for the
+        past meetings and one for current/future meetings. We then go through
+        the following steps for each url:
+        (i) Fetch the about us/board documents page (_fetch_documents)
+        (ii) Parse it into a dictionary of dates to links which can be passed down
+            (_parse_documents)
+        (iii) Extract all the meetings from the main response (_parse_event_list)
+        For each meeting we extracted we then:
+        (iv) Fetch the meeting details from the meeting details page (_fetch_event_details)
+        (v) Generate and yield the actual meeting (_parse_event_with_details)
+
+        Going from fetching documents to parsing them, and from fetching meeting details
+        to generating the meetings page both happen via callbacks on request objects.
+        """
         return self._fetch_documents(response)
 
     def _fetch_documents(self, response): 
+        """
+        _fetch_documents grabs the about us/document page. The parsing of the
+        results happens in the callback to _parse_documents. 
+        """
         return Request(
             url=self.document_url,
             callback=self._parse_documents,
@@ -30,9 +61,15 @@ class CuyaElectionsSpider(CityScrapersSpider):
                 'page_response': response
             })
 
-    # As of 2/1/2022 some of the link so n the board meetings document page are wrong - specifically around nov of 2020
-    # if you see just those meetings seem wrong - it's due to the page's content and not the scraper!
+
     def _parse_documents(self, document_response, page_response):
+        """
+        _parse_documents and parses a response from fetching the document page
+        into a dictionary of event date strings to lists of document links.
+        Note that a few of the links on the page for meetings circa Nov 2020
+        seem to be incorrect as of 2/1/2022. If you see weird results in the 
+        scraper it might be because of errors on the page itself.
+        """
         documents = {}
         content_section = document_response.css("section#Contentplaceholder1_TAA75111F019_Col00")
         dates = content_section.css("h3.heading-s")
@@ -47,6 +84,10 @@ class CuyaElectionsSpider(CityScrapersSpider):
         return self._parse_event_list(documents, page_response)
 
     def _parse_event_list(self, documents, response):
+        """
+        _parse_event_list pulls each event out of the primary response.
+        It then iterates over them to parse individual events.
+        """
         event_list = response.css("ul.item-list li.item")
         for event in event_list:
             title = self._parse_title(event)
@@ -56,6 +97,12 @@ class CuyaElectionsSpider(CityScrapersSpider):
     
 
     def _fetch_event_details(self, item, documents, url):
+        """
+        _fetch_event_details fetches the page containing the events
+        description and location.  It then passes control to
+        _parse_event_with_details - the function that primarily generates
+        the meeting - in the Request's callback.
+        """
         details_url = item.css("h3.title a").attrib["href"]
         return Request(
             url=details_url,
@@ -67,6 +114,9 @@ class CuyaElectionsSpider(CityScrapersSpider):
             })
 
     def _parse_event_with_details(self, details, item, url, documents):
+        """
+        _parse_event_with_details generates and yields an individual meeting.
+        """
         start, end = self._parse_start_end(item)
         documents_date_key = start.strftime('%m/%d/%Y')
         meeting = Meeting(
@@ -125,103 +175,3 @@ class CuyaElectionsSpider(CityScrapersSpider):
         
         description_str = " ".join(main_description_parsed + list_item_descriptions_parsed)
         return description_str
-
-    # def parse(self, response):
-    #     today = datetime.now()
-    #     payload = {
-    #         "ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolderMain$ctl00": "ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolderMain$EventsCalendar1$updMainPanel|ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolderMain$EventsCalendar1$TabContainer1$tbpDateRange$btnShowDateRange",  # noqa
-    #         "__EVENTTARGET": "ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolderMain$EventsCalendar1$TabContainer1",  # noqa
-    #         "__EVENTARGUMENT": "activeTabChanged:3",
-    #         "__VIEWSTATE": response.css("#__VIEWSTATE::attr(value)").extract_first(),
-    #         "__VIEWSTATEGENERATOR": response.css(
-    #             "#__VIEWSTATEGENERATOR::attr(value)"
-    #         ).extract_first(),
-    #         "__EVENTVALIDATION": response.css(
-    #             "#__EVENTVALIDATION::attr(value)"
-    #         ).extract_first(),
-    #         "__AjaxControlToolkitCalendarCssLoaded": "",
-    #         "ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolderMain$EventsCalendar1$TabContainer1$tbpDateRange$txtStartDate": (  # noqa
-    #             today - timedelta(days=200)
-    #         ).strftime(
-    #             "%m/%d/%Y"
-    #         ),
-    #         "ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolderMain$EventsCalendar1$TabContainer1$tbpDateRange$txtEndDate": (  # noqa
-    #             today + timedelta(days=10)
-    #         ).strftime(
-    #             "%m/%d/%Y"
-    #         ),
-    #         "ContentPlaceHolder1_ContentPlaceHolderMain_EventsCalendar1_TabContainer1_ClientState": '{"ActiveTabIndex":3,"TabState":[true,true,true,true]}',  # noqa
-    #     }
-    #     yield FormRequest(
-    #         response.url, formdata=payload, callback=self._parse_form_response
-    #     )
-
-    # def _parse_form_response(self, response):
-    #     for link in response.css(".SearchResults td:nth-child(2) a"):
-    #         link_text = " ".join(link.css("*::text").extract())
-    #         # TODO: Include other notices?
-    #         if "Board" not in link_text:
-    #             continue
-    #         yield response.follow(
-    #             link.attrib["href"], callback=self._parse_detail, dont_filter=True
-    #         )
-
-    # def _parse_detail(self, response):
-    #     """
-    #     `_parse_detail` should always `yield` Meeting items.
-
-    #     Change the `_parse_title`, `_parse_start`, etc methods to fit your scraping
-    #     needs.
-    #     """
-    #     start, end = self._parse_start_end(response)
-    #     meeting = Meeting(
-    #         title=self._parse_title(response),
-    #         description="",
-    #         classification=BOARD,
-    #         start=start,
-    #         end=end,
-    #         all_day=False,
-    #         time_notes="",
-    #         location=self._parse_location(response),
-    #         links=self._parse_links(response),
-    #         source=response.url,
-    #     )
-
-    #     meeting["status"] = self._get_status(
-    #         meeting, text=" ".join(response.css(".padding *::text").extract())
-    #     )
-    #     meeting["id"] = self._get_id(meeting)
-
-    #     yield meeting
-
-    # def _parse_title(self, response):
-    #     """Parse or generate meeting title."""
-    #     title_str = " ".join(response.css(".padding h1 *::text").extract())
-    #     if "Special" in title_str:
-    #         return title_str
-    #     return "Board of Elections"
-
-    # def _parse_start_end(self, response):
-    #     """Parse start, end datetimes as naive datetime objects."""
-    #     dt_list = []
-    #     for item_str in response.css(".padding dd::text").extract():
-    #         dt_match = re.search(
-    #             r"\d{1,2}/\d{1,2}/\d{4}-\d{1,2}:\d{2} [APM]{2}", item_str
-    #         )
-    #         if dt_match:
-    #             dt_list.append(datetime.strptime(dt_match.group(), "%m/%d/%Y-%I:%M %p"))
-    #     end = None
-    #     if len(dt_list) > 1:
-    #         end = dt_list[1]
-    #     return dt_list[0], end
-
-
-    # def _parse_links(self, response):
-    #     """Parse or generate links."""
-    #     links = []
-    #     for link in response.css(".padding blockquote a"):
-    #         link_title = " ".join(link.css("*::text").extract()).strip()
-    #         links.append(
-    #             {"title": link_title, "href": response.urljoin(link.attrib["href"])}
-    #         )
-    #     return links
